@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/countriesListFragment">
+
+    <fragment
+        android:id="@+id/countriesListFragment"
+        android:name="com.shubham.countryguide.fragments.CountriesListFragment"
+        android:label="CountriesListFragment" />
+</navigation>
